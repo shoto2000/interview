@@ -6,4 +6,6 @@ import com.prospecta.entity.Prospecta;
 
 public interface ProspectService {
 	public List<Prospecta> getProspectaByCategory(String name) throws Exception;
+	
+	public Prospecta savePeospecta(Prospecta prospecta);
 }

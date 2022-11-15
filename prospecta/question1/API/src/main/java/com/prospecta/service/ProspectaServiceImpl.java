@@ -26,4 +26,9 @@ public class ProspectaServiceImpl implements ProspectService{
 		}
 	}
 
+	@Override
+	public Prospecta savePeospecta(Prospecta prospecta) {
+		return prospectaRepo.save(prospecta);
+	}
+
 }
